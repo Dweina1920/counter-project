@@ -1,11 +1,5 @@
-// Tu código aquí dina.
-
-// Variable de estado: un número para almacenar el valor actual del contador
-
 let counter = 0;
 const number = document.querySelector("#counter");
-
-//Seleccionar el botón ADDCOUNT
 
 document.querySelector(".nextBtn").addEventListener("click", () => {
   counter++;
